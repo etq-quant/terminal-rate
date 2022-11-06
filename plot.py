@@ -62,7 +62,7 @@ def create_plot(df):
                 mode="markers+text",
                 text="{:.2f}%".format(dd.y[-1]),
                 textfont=dict(color=dd.line.color),
-                textposition="bottom right",
+                textposition="middle right",
                 marker=dict(color=dd.line.color, size=12, opacity=0),
                 legendgroup=dd.name,
                 showlegend=False,
