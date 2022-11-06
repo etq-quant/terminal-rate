@@ -108,7 +108,7 @@ def create_plot(df):
             showticklabels=True,
         ),
         yaxis=dict(
-            title="rate %",
+            title="Bond and FED rate %",
             gridcolor="#D5D8DC",
             # ticksuffix='%',
             # tickformat='.0f',
