@@ -31,7 +31,9 @@ st.write("Date:", start_date, end_date)
 
 
 start_year, end_year = st.select_slider(
-    "Year", options=df.index.year, value=(df.index.year.min(), df.index.year.max()),
+    "Year",
+    options=df.index.year.unique(),
+    value=(df.index.year.min(), df.index.year.max()),
 )
 st.write("Year:", start_year, end_year)
 
